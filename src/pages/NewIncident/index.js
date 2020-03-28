@@ -12,7 +12,11 @@ export default function NewIncident() {
         <section>
           <img src={logoImg} alt="Be the hero"></img>
           <h1>Cadastrar novo caso</h1>
-          <p>Descreva o caso detalhadamente para encontrar um herói 🦸‍♀️🦸‍♂️</p>
+          <p>
+            Descreva o caso detalhadamente para encontrar um herói
+            <span role="img" aria-label="Female Hero">🦸‍♀️</span>
+            <span role="img" aria-label="Male Hero">🦸‍♂️</span>
+          </p>
 
           <Link className="back-link" to="/profile">
             <FiArrowLeft size="16"  color="#E02041"/>
