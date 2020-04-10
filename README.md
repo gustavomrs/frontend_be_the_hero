@@ -9,10 +9,8 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 
 #### Register NGO and Login:
 
-![Demo Be the hero](https://drive.google.com/u/0/uc?id=1npkE5bTa-XrGXJNRuqLwL39DRrO0aoMm&export=download)
+![Demo Be the hero](https://drive.google.com/uc?id=1npkE5bTa-XrGXJNRuqLwL39DRrO0aoMm&authuser=0&export=download)
 
-
-<a href="//imgur.com/KqdIts4"></a>
 
 #### Register a new incident:
 
