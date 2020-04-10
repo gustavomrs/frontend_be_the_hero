@@ -41,35 +41,35 @@ export default function NewIncident() {
       <div className="content">
         <section>
           <img src={logoImg} alt="Be the hero"></img>
-          <h1>Cadastrar novo caso</h1>
+          <h1>Register new incident</h1>
           <p>
-            Descreva o caso detalhadamente para encontrar um herói
+            Describe the incident with details to find a hero
             <span role="img" aria-label="Female Hero">🦸‍♀️</span>
             <span role="img" aria-label="Male Hero">🦸‍♂️</span>
           </p>
 
           <Link className="back-link" to="/profile">
             <FiArrowLeft size="16"  color="#E02041"/>
-            Voltar para Profile
+            Back to Profile
           </Link>
         </section>
         <form onSubmit={handleNewIncident }>
           <input
-            placeholder="Titulo do caso"
+            placeholder="Incident title"
             value={title}
             onChange={e => setTitle(e.target.value)}
           />
           <textarea
-            placeholder="Descrição"
+            placeholder="Incident description"
             value={description}
             onChange={e => setDescription(e.target.value)}
           />
           <input
-            placeholder="Valor em reais"
+            placeholder="Budget"
             value={value}
             onChange={e => setValue(e.target.value)}
           />
-          <button type="submit" className="button">Cadastrar</button>
+          <button type="submit" className="button">Register</button>
         </form>
       </div>
     </div>

@@ -34,7 +34,7 @@ export default function Profile(){
 
       setIncidents(incidents.filter(incident => incident.id !== id))
     } catch (error) {
-      alert('OPS! Algo deu errado')
+      alert('OPS! Something went wrong')
     }
   }
 
@@ -47,25 +47,25 @@ export default function Profile(){
     <div className="profile-container">
       <header>
         <img src={logoImg} alt="Be the hero"/>
-        <span>Bem vinda, {ongName}</span>
+        <span>Welcome, {ongName}</span>
 
-        <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
+        <Link className="button" to="/incidents/new">New Incident</Link>
         <button type="button">
           <FiPower size="18" color="#E02041" onClick={handleLogout}></FiPower>
         </button>
       </header>
 
-      <h1>Cados cadastrados</h1>
+      <h1>Incidents registered</h1>
       <ul>
         {incidents.map(incident => (
           <li key={incident.id}>
-            <strong>CASO</strong>
+            <strong>TITLE</strong>
             <p>{incident.title}</p>
 
-            <strong>DESCRIÇÃO</strong>
+            <strong>DESCRIPTION</strong>
             <p>{incident.description}</p>
 
-            <strong>VALOR</strong>
+            <strong>VALUE</strong>
             <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}</p>
 
             <button type="button" onClick={() => handleDeleteIncident(incident.id)}>

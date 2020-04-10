@@ -28,9 +28,10 @@ export default function Register() {
 
     try {
       const response = await api.post('ongs', data)
-      alert(`Cadastro realizado! ID: ${response.data.id}`)
+      alert(`Register created! Your ID: ${response.data.id}`)
       history.push('/')
     } catch (error) {
+      console.log(error)
       alert(`OPS! Algo deu errado.`)
     }
   }
@@ -40,17 +41,17 @@ export default function Register() {
       <div className="content">
         <section>
           <img src={logoImg} alt="Be the hero"></img>
-          <h1>Cadastro</h1>
-          <p>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG</p>
+          <h1>New Register</h1>
+          <p>Register, enter on the platform and help people find the cases of your NGO</p>
 
           <Link className="back-link" to="/">
             <FiArrowLeft size="16"  color="#E02041"/>
-            Voltar para Login
+            Back to Login
           </Link>
         </section>
         <form onSubmit={handleRegister}>
           <input
-            placeholder="Nome da ONG"
+            placeholder="NGO Name"
             value={name}
             onChange={e => setName(e.target.value)}/>
           <input
@@ -64,7 +65,7 @@ export default function Register() {
             onChange={e => setWhatsapp(e.target.value)}/>
           <div className="input-group">
             <input
-              placeholder="cidade"
+              placeholder="City"
               value={city}
               onChange={e => setCity(e.target.value)}/>
             <input
@@ -73,7 +74,7 @@ export default function Register() {
               value={uf}
               onChange={e => setUf(e.target.value)}/>
           </div>
-          <button className="button" type="submit">Cadastrar</button>
+          <button className="button" type="submit">Register</button>
         </form>
       </div>
     </div>
