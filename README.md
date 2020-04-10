@@ -14,6 +14,8 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 
 #### Register a new incident:
 
+![Register new incidents](demo/register_incidents.gif)
+
 
 #### Delete a incident:
 
