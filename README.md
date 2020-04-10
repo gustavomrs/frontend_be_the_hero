@@ -10,13 +10,6 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 
 - Acessing the mobile app, search for new cases and entering in contact with NGO's.
 
-## Composition of Be The Hero in therms of software projects:
-
-- react frontend: https://github.com/gustavomrs/frontend_be_the_hero
-- react-native mobile app: https://github.com/gustavomrs/mobile_be_the_hero
-- node.js backend: https://github.com/gustavomrs/backend_be_the_hero
-
-
 ### Register NGO and Login:
 
 ![Register Organization and Login](demo/register_organization.gif)
@@ -33,5 +26,11 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 ### Application demo URL: https://peaceful-almeida-23154a.netlify.com/
 
 
+## Composition of Be The Hero in therms of software projects:
 
-> Disclaimer: This is not an official application, it was created only for study purposes.
+- react frontend: https://github.com/gustavomrs/frontend_be_the_hero
+- react-native mobile app: https://github.com/gustavomrs/mobile_be_the_hero
+- node.js backend: https://github.com/gustavomrs/backend_be_the_hero
+
+
+> Disclaimer: This is not an official platform, it was created only for study purposes.
