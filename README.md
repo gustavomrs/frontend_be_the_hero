@@ -30,6 +30,8 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 ![Delete incidents](demo/delete_incidents.gif)
 
 
-Application demo URL:
+### Application demo URL: https://peaceful-almeida-23154a.netlify.com/
 
-Disclaimer: This is not an official application, it was created only for study purposes.
+
+
+> Disclaimer: This is not an official application, it was created only for study purposes.
