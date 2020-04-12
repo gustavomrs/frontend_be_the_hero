@@ -23,7 +23,7 @@ Be the hero in an application where Non Governmental Organizations (NGO's) can p
 ![Delete incidents](demo/delete_incidents.gif)
 
 
-### Application demo URL: https://peaceful-almeida-23154a.netlify.com/
+### Application demo URL: https://ngo-be-the-hero.netlify.com/
 
 
 ## Composition of Be The Hero in therms of software projects:
